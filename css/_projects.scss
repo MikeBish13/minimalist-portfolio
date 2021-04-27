@@ -8,16 +8,16 @@
   background-repeat: no-repeat;
 
   &-manage {
-    background-image: url("/images/detail/tablet/image-manage-hero.jpg");
+    background-image: url("./images/detail/tablet/image-manage-hero.jpg");
   }
   &-bookmark {
-    background-image: url("/images/detail/tablet/image-bookmark-hero.jpg");
+    background-image: url("./images/detail/tablet/image-bookmark-hero.jpg");
   }
   &-insure {
-    background-image: url("/images/detail/tablet/image-insure-hero.jpg");
+    background-image: url("./images/detail/tablet/image-insure-hero.jpg");
   }
   &-fylo {
-    background-image: url("/images/detail/tablet/image-fylo-hero.jpg");
+    background-image: url("./images/detail/tablet/image-fylo-hero.jpg");
   }
 }
 
@@ -194,7 +194,7 @@
         margin-top: 5.875rem;
 
         &-manage {
-            background-image: url('/images/detail/desktop/image-manage-hero.jpg');
+            background-image: url('./images/detail/desktop/image-manage-hero.jpg');
         }
         &-bookmark {
             background-image: url('/images/detail/desktop/image-bookmark-hero.jpg');
