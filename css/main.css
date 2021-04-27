@@ -711,19 +711,19 @@ footer .navbar-footer {
 }
 
 .project-hero-manage {
-  background-image: url("/images/detail/tablet/image-manage-hero.jpg");
+  background-image: url("../images/detail/tablet/image-manage-hero.jpg");
 }
 
 .project-hero-bookmark {
-  background-image: url("/images/detail/tablet/image-bookmark-hero.jpg");
+  background-image: url("../images/detail/tablet/image-bookmark-hero.jpg");
 }
 
 .project-hero-insure {
-  background-image: url("/images/detail/tablet/image-insure-hero.jpg");
+  background-image: url("../images/detail/tablet/image-insure-hero.jpg");
 }
 
 .project-hero-fylo {
-  background-image: url("/images/detail/tablet/image-fylo-hero.jpg");
+  background-image: url("../images/detail/tablet/image-fylo-hero.jpg");
 }
 
 .project-container {
@@ -776,19 +776,19 @@ footer .navbar-footer {
 }
 
 .img-preview-1-manage {
-  background-image: url("/images/detail/tablet/image-manage-preview-1.jpg");
+  background-image: url("../images/detail/tablet/image-manage-preview-1.jpg");
 }
 
 .img-preview-1-bookmark {
-  background-image: url("/images/detail/tablet/image-bookmark-preview-1.jpg");
+  background-image: url("../images/detail/tablet/image-bookmark-preview-1.jpg");
 }
 
 .img-preview-1-insure {
-  background-image: url("/images/detail/tablet/image-insure-preview-1.jpg");
+  background-image: url("../images/detail/tablet/image-insure-preview-1.jpg");
 }
 
 .img-preview-1-fylo {
-  background-image: url("/images/detail/tablet/image-fylo-preview-1.jpg");
+  background-image: url("../images/detail/tablet/image-fylo-preview-1.jpg");
 }
 
 .img-preview-2 {
@@ -796,19 +796,19 @@ footer .navbar-footer {
 }
 
 .img-preview-2-manage {
-  background-image: url("/images/detail/tablet/image-manage-preview-2.jpg");
+  background-image: url("../images/detail/tablet/image-manage-preview-2.jpg");
 }
 
 .img-preview-2-bookmark {
-  background-image: url("/images/detail/tablet/image-bookmark-preview-2.jpg");
+  background-image: url("../images/detail/tablet/image-bookmark-preview-2.jpg");
 }
 
 .img-preview-2-insure {
-  background-image: url("/images/detail/tablet/image-insure-preview-2.jpg");
+  background-image: url("../images/detail/tablet/image-insure-preview-2.jpg");
 }
 
 .img-preview-2-fylo {
-  background-image: url("/images/detail/tablet/image-fylo-preview-2.jpg");
+  background-image: url("../images/detail/tablet/image-fylo-preview-2.jpg");
 }
 
 .project-navigation {
@@ -920,45 +920,42 @@ footer .navbar-footer {
     height: 31.25rem;
     margin-top: 5.875rem;
   }
-  .project-hero-manage {
-    background-image: url("/images/detail/desktop/image-manage-hero.jpg");
-  }
   .project-hero-bookmark {
-    background-image: url("/images/detail/desktop/image-bookmark-hero.jpg");
+    background-image: url("../images/detail/desktop/image-bookmark-hero.jpg");
   }
   .project-hero-insure {
-    background-image: url("/images/detail/desktop/image-insure-hero.jpg");
+    background-image: url("../images/detail/desktop/image-insure-hero.jpg");
   }
   .project-hero-fylo {
-    background-image: url("/images/detail/desktop/image-fylo-hero.jpg");
+    background-image: url("../images/detail/desktop/image-fylo-hero.jpg");
   }
   .img-preview-1,
   .img-preview-2 {
     height: 25rem;
   }
   .img-preview-1-manage {
-    background-image: url("/images/detail/desktop/image-manage-preview-1.jpg");
+    background-image: url("../images/detail/desktop/image-manage-preview-1.jpg");
   }
   .img-preview-1-bookmark {
-    background-image: url("/images/detail/desktop/image-bookmark-preview-1.jpg");
+    background-image: url("../images/detail/desktop/image-bookmark-preview-1.jpg");
   }
   .img-preview-1-insure {
-    background-image: url("/images/detail/desktop/image-insure-preview-1.jpg");
+    background-image: url("../images/detail/desktop/image-insure-preview-1.jpg");
   }
   .img-preview-1-fylo {
-    background-image: url("/images/detail/desktop/image-fylo-preview-1.jpg");
+    background-image: url("../images/detail/desktop/image-fylo-preview-1.jpg");
   }
   .img-preview-2-manage {
-    background-image: url("/images/detail/desktop/image-manage-preview-2.jpg");
+    background-image: url("../images/detail/desktop/image-manage-preview-2.jpg");
   }
   .img-preview-2-bookmark {
-    background-image: url("/images/detail/desktop/image-bookmark-preview-2.jpg");
+    background-image: url("../images/detail/desktop/image-bookmark-preview-2.jpg");
   }
   .img-preview-2-insure {
-    background-image: url("/images/detail/desktop/image-insure-preview-2.jpg");
+    background-image: url("../images/detail/desktop/image-insure-preview-2.jpg");
   }
   .img-preview-2-fylo {
-    background-image: url("/images/detail/desktop/image-fylo-preview-2.jpg");
+    background-image: url("../images/detail/desktop/image-fylo-preview-2.jpg");
   }
   .project-container {
     margin-top: 7.25rem;

@@ -8,16 +8,16 @@
   background-repeat: no-repeat;
 
   &-manage {
-    background-image: url("./images/detail/tablet/image-manage-hero.jpg");
+    background-image: url("../images/detail/tablet/image-manage-hero.jpg");
   }
   &-bookmark {
-    background-image: url("./images/detail/tablet/image-bookmark-hero.jpg");
+    background-image: url("../images/detail/tablet/image-bookmark-hero.jpg");
   }
   &-insure {
-    background-image: url("./images/detail/tablet/image-insure-hero.jpg");
+    background-image: url("../images/detail/tablet/image-insure-hero.jpg");
   }
   &-fylo {
-    background-image: url("./images/detail/tablet/image-fylo-hero.jpg");
+    background-image: url("../images/detail/tablet/image-fylo-hero.jpg");
   }
 }
 
@@ -70,16 +70,16 @@
   margin-top: 2.5rem;
 
   &-manage {
-    background-image: url("/images/detail/tablet/image-manage-preview-1.jpg");
+    background-image: url("../images/detail/tablet/image-manage-preview-1.jpg");
   }
   &-bookmark {
-    background-image: url("/images/detail/tablet/image-bookmark-preview-1.jpg");
+    background-image: url("../images/detail/tablet/image-bookmark-preview-1.jpg");
   }
   &-insure {
-    background-image: url("/images/detail/tablet/image-insure-preview-1.jpg");
+    background-image: url("../images/detail/tablet/image-insure-preview-1.jpg");
   }
   &-fylo {
-    background-image: url("/images/detail/tablet/image-fylo-preview-1.jpg");
+    background-image: url("../images/detail/tablet/image-fylo-preview-1.jpg");
   }
 }
 
@@ -87,16 +87,16 @@
   margin-top: 2rem;
 
   &-manage {
-    background-image: url("/images/detail/tablet/image-manage-preview-2.jpg");
+    background-image: url("../images/detail/tablet/image-manage-preview-2.jpg");
   }
   &-bookmark {
-    background-image: url("/images/detail/tablet/image-bookmark-preview-2.jpg");
+    background-image: url("../images/detail/tablet/image-bookmark-preview-2.jpg");
   }
   &-insure {
-    background-image: url("/images/detail/tablet/image-insure-preview-2.jpg");
+    background-image: url("../images/detail/tablet/image-insure-preview-2.jpg");
   }
   &-fylo {
-    background-image: url("/images/detail/tablet/image-fylo-preview-2.jpg");
+    background-image: url("../images/detail/tablet/image-fylo-preview-2.jpg");
   }
 }
 
@@ -193,17 +193,17 @@
         height: 31.25rem;
         margin-top: 5.875rem;
 
-        &-manage {
-            background-image: url('./images/detail/desktop/image-manage-hero.jpg');
-        }
+        // &-manage {
+        //     background-image: url('./images/detail/desktop/image-manage-hero.jpg');
+        // }
         &-bookmark {
-            background-image: url('/images/detail/desktop/image-bookmark-hero.jpg');
+            background-image: url('../images/detail/desktop/image-bookmark-hero.jpg');
         }
         &-insure {
-            background-image: url('/images/detail/desktop/image-insure-hero.jpg');
+            background-image: url('../images/detail/desktop/image-insure-hero.jpg');
         }
         &-fylo {
-            background-image: url('/images/detail/desktop/image-fylo-hero.jpg');
+            background-image: url('../images/detail/desktop/image-fylo-hero.jpg');
         }
     }
 
@@ -214,31 +214,31 @@
 
     .img-preview-1 {
         &-manage {
-        background-image: url('/images/detail/desktop/image-manage-preview-1.jpg');
+        background-image: url('../images/detail/desktop/image-manage-preview-1.jpg');
         }
         &-bookmark {
-        background-image: url('/images/detail/desktop/image-bookmark-preview-1.jpg');
+        background-image: url('../images/detail/desktop/image-bookmark-preview-1.jpg');
         }
         &-insure {
-        background-image: url('/images/detail/desktop/image-insure-preview-1.jpg');
+        background-image: url('../images/detail/desktop/image-insure-preview-1.jpg');
         }
         &-fylo {
-        background-image: url('/images/detail/desktop/image-fylo-preview-1.jpg');
+        background-image: url('../images/detail/desktop/image-fylo-preview-1.jpg');
         }
     }
 
     .img-preview-2 {
         &-manage {
-        background-image: url('/images/detail/desktop/image-manage-preview-2.jpg');
+        background-image: url('../images/detail/desktop/image-manage-preview-2.jpg');
         }
         &-bookmark {
-        background-image: url('/images/detail/desktop/image-bookmark-preview-2.jpg');
+        background-image: url('../images/detail/desktop/image-bookmark-preview-2.jpg');
         }
         &-insure {
-        background-image: url('/images/detail/desktop/image-insure-preview-2.jpg');
+        background-image: url('../images/detail/desktop/image-insure-preview-2.jpg');
         }
         &-fylo {
-        background-image: url('/images/detail/desktop/image-fylo-preview-2.jpg');
+        background-image: url('../images/detail/desktop/image-fylo-preview-2.jpg');
         }
     }
 
