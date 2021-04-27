@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&family=Public+Sans:wght@400;600;700&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-cyan: #5FB4A2;
+    --clr-blue: #203A4C;
+    --clr-gray-blue: #33323D;
+    --clr-light-gray: #FAFAFA;
+    --clr-gray: #EAEAEB;
+    --clr-border-gray: #dcdcde;
+    --clr-red: #F43020;
+    --fw-reg: 400;
+    --fw-semi-bold: 600;
+    --fw-bold: 700;
+    --transition: 300ms ease-in;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+h1, 
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+}
+
+body {
+    background-color: var(--clr-light-gray);
+    margin: 0;
+}

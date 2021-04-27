@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/1c6b673aa2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>Mike Bishop | Frontend Web Developer</title>
+  </head>
+  <body>
+    <header class="container">
+      <img src="images/logo.svg" alt="Portfolio logo" class="header-logo" />
+      <button class="nav-toggle">
+        <svg
+          class="hamburger"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="13"
+        >
+          <g fill="#33323D" fill-rule="evenodd">
+            <path d="M0 0h24v1H0zM0 6h24v1H0zM0 12h24v1H0z" />
+          </g>
+        </svg>
+        <svg
+          class="close"
+          xmlns="http://www.w3.org/2000/svg"
+          width="18"
+          height="19"
+        >
+          <path
+            fill="#33323D"
+            fill-rule="evenodd"
+            d="M17.132.661l.707.707L9.707 9.5l8.132 8.132-.707.707L9 10.207.868 18.34l-.707-.707L8.293 9.5.161 1.368.868.661 9 8.793 17.132.661z"
+          />
+        </svg>
+      </button>
+      <nav class="navbar-header">
+        <ul class="nav-items nav-items-header">
+          <li class="nav-item nav-item-header">
+            <a href="#" class="nav-link nav-link-header active">Home</a>
+          </li>
+          <li class="nav-item nav-item-header">
+            <a href="portfolio.html" class="nav-link nav-link-header">Portfolio</a>
+          </li>
+          <li class="nav-item nav-item-header">
+            <a href="contact.html" class="nav-link nav-link-header">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero container">
+      <img
+        src="images/homepage/desktop/image-homepage-hero.jpg"
+        alt="Computer displaying website"
+        class="hero-img-desktop"
+      />
+      <img
+        src="images/homepage/tablet/image-homepage-hero.jpg"
+        alt="Computer displaying website"
+        class="hero-img-tablet"
+      />
+      <img
+        src="images/homepage/mobile/image-homepage-hero.jpg"
+        alt="Computer displaying website"
+        class="hero-img-mobile"
+      />
+      <div class="hero-details">
+        <h1 class="hero-text">
+          Hey, I’m Alex Spencer and I love building beautiful websites
+        </h1>
+        <a href="#about" class="btn btn-primary btn-primary-about">
+          <div class="btn__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14">
+              <g fill="none" fill-rule="evenodd" stroke="#5FB4A2">
+                <path d="M0 9l8 4 8-4" />
+                <path opacity=".5" d="M0 5l8 4 8-4" />
+                <path opacity=".25" d="M0 1l8 4 8-4" />
+              </g>
+            </svg>
+          </div>
+          <div class="btn__text">About Me</div>
+        </a>
+      </div>
+    </section>
+
+    <section class="about container" id="about">
+      <img
+        src="images/homepage/desktop/image-homepage-profile.jpg"
+        alt="Profile picture"
+        class="about-img-desktop"
+      />
+      <img
+        src="images/homepage/tablet/image-homepage-profile.jpg"
+        alt="Profile picture"
+        class="about-img-tablet"
+      />
+      <img
+        src="images/homepage/mobile/image-homepage-profile.jpg"
+        alt="Profile picture"
+        class="about-img-mobile"
+      />
+      <div class="about-details">
+        <h2 class="about-title">About Me</h2>
+        <p class="about-text">
+          I’m a junior front-end developer looking for a new role in an exciting
+          company. I focus on writing accessible HTML, using modern CSS
+          practices and writing clean JavaScript. When writing JavaScript code,
+          I mostly use React, but I can adapt to whatever tools are required.
+          I’m based in London, UK, but I’m happy working remotely and have
+          experience in remote teams. When I’m not coding, you’ll find me
+          outdoors. I love being out in nature whether that’s going for a walk,
+          run or cycling. I’d love you to check out my work.
+        </p>
+        <a href="portfolio.html" class="btn btn-secondary btn-secondary-about">Go to Portfolio</a>
+      </div>
+    </section>
+
+    <section class="call-to-action container">
+      <h2 class="cta-title">Interested in doing a project together?</h2>
+      <div class="horizontal-line"></div>
+      <a href="contact.html" class="btn btn-secondary btn-secondary-cta">Contact Me</a>
+    </section>
+
+    <footer>
+      <div class="container">
+        <nav class="navbar-footer">
+          <img
+            src="images/footer-logo.svg"
+            alt="Portfolio logo"
+            class="footer-logo"
+          />
+          <ul class="nav-items nav-items-footer">
+            <li class="nav-item nav-item-footer">
+              <a href="#" class="nav-link nav-link-footer">Home</a>
+            </li>
+            <li class="nav-item nav-item-footer">
+              <a href="portfolio.html" class="nav-link nav-link-footer">Portfolio</a>
+            </li>
+            <li class="nav-item nav-item-footer">
+              <a href="contact.html" class="nav-link nav-link-footer">Contact Me</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="social-icons">
+          <i class="fab fa-github"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-linkedin"></i>
+        </div>
+      </div>
+    </footer>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>

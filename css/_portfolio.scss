@@ -1,0 +1,106 @@
+/* Mobile Design ====
+=================== */ 
+.portfolio-img-desktop,
+.portfolio-img-tablet {
+    display: none;
+}
+
+.portfolio-img-mobile {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.portfolios {
+    margin: 2.5rem auto 5rem;
+}
+
+.portfolio-details {
+    margin: 2rem auto 4.5rem;
+    padding: 1.5625rem 0;
+    border-top: 1px solid var(--clr-border-gray);
+    border-bottom: 1px solid var(--clr-border-gray);
+}
+
+.portfolio-title,
+.portfolio-text {
+    margin-bottom: 1.5rem;
+}
+
+.portfolio-text {
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.cta-portfolio {
+    padding-top: 0;
+}
+
+/* Media query ====
+================ */ 
+
+@media(min-width: 376px) {
+    .portfolio-img-mobile {
+        display: none;
+    }
+
+    .portfolio-img-tablet {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+
+/* Tablet Design ===
+================= */ 
+
+@media (min-width: 550px) {
+    .portfolios {
+        margin-top: 5.875rem;
+    }
+
+    .portfolio {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 11%;
+        margin-bottom: 5rem;
+    }
+
+    .portfolio-left {
+        flex-direction: row-reverse;
+    }
+
+    .portfolio-img-tablet {
+        width: 50%;
+        margin: 0;
+    }
+
+    .portfolio-details {
+        width: 50%;
+        max-width: 350px;
+        margin: 0;
+        padding-bottom: 3.125rem;
+        align-self: stretch;
+    }
+}
+
+/* Desktop design ====
+================== */ 
+
+@media (min-width: 1000px) {
+    .portfolio {
+        margin-bottom: 9.375rem;
+    }
+
+    .portfolio-img-tablet {
+        display: none;
+    }
+    
+    .portfolio-img-desktop {
+        display: block;
+    }
+
+    .portfolio-details {
+        padding: 6.4375rem 0;
+    }
+}

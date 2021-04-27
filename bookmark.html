@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script
+      src="https://kit.fontawesome.com/1c6b673aa2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>Frontend Mentor | Minimalist Portfolio</title>
+    <header class="container">
+      <img src="images/logo.svg" alt="Portfolio logo" class="header-logo" />
+      <button class="nav-toggle">
+        <svg
+          class="hamburger"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="13"
+        >
+          <g fill="#33323D" fill-rule="evenodd">
+            <path d="M0 0h24v1H0zM0 6h24v1H0zM0 12h24v1H0z" />
+          </g>
+        </svg>
+        <svg
+          class="close"
+          xmlns="http://www.w3.org/2000/svg"
+          width="18"
+          height="19"
+        >
+          <path
+            fill="#33323D"
+            fill-rule="evenodd"
+            d="M17.132.661l.707.707L9.707 9.5l8.132 8.132-.707.707L9 10.207.868 18.34l-.707-.707L8.293 9.5.161 1.368.868.661 9 8.793 17.132.661z"
+          />
+        </svg>
+      </button>
+      <nav class="navbar-header">
+        <ul class="nav-items nav-items-header">
+          <li class="nav-item nav-item-header">
+            <a href="index.html" class="nav-link nav-link-header active">Home</a>
+          </li>
+          <li class="nav-item nav-item-header">
+            <a href="portfolio.html" class="nav-link nav-link-header">Portfolio</a>
+          </li>
+          <li class="nav-item nav-item-header">
+            <a href="contact.html" class="nav-link nav-link-header">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+</head>
+<body>
+  <section class="project-hero project-hero-bookmark container"></section>
+
+  <section class="project-container container">
+    <div class="project-details">
+      <h2 class="project-title">Bookmark</h2>
+      <p class="project-info">This project required me to build a fully responsive landing page to the designs 
+        provided. I used HTML5, along with CSS Grid and JavaScript for the areas that 
+        required interactivity, such as the features section.</p>
+      <p class="project-desc">Interaction Design / Front End Development</p>
+      <p class="project-skills">HTML / CSS / JS</p>
+      <a href="" class="btn btn-secondary btn-secondary-project">Visit Website</a>
+    </div>
+    <div class="project-background">
+      <h3 class="project-background-title">Project Background</h3>
+      <p class="project-background-info"> This project was a front-end challenge from Frontend Mentor. It’s a platform that 
+        enables you to practice building websites to a design and project brief. Each challenge 
+        includes mobile and desktop designs to show how the website should look at different 
+        screen sizes. Creating these projects has helped me refine my workflow and solve 
+        real-world coding problems. I’ve learned something new with each project, helping 
+        me to improve and adapt my style.</p>
+      <h3 class="previews">Static Previews</h3>
+      <div class="img-preview-1 img-preview-1-bookmark"></div>
+      <div class="img-preview-2 img-preview-2-bookmark"></div>
+    </div>
+  </section>
+  
+  <section class="project-navigation container">
+    <a href="manage.html" class="previous-project">
+    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" class="arrow"><path fill="none" stroke="#33323D" d="M9 0L1 8l8 8"/></svg>
+    <div class="arrow-info">
+      <h3 class="arrow-title">Manage</h3>
+      <p class="arrow-text">Previous Project</p>
+    </div>
+  </a>
+    <a href="insure.html" class="next-project">
+      <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" class="arrow"><path fill="none" stroke="#33323D" d="M1 0l8 8-8 8"/></svg>
+    <div class="arrow-info">
+      <h3 class="arrow-title">Insure</h3>
+      <p class="arrow-text">Next Project</p>
+    </div>
+  </a>
+  </section>  
+  
+
+  <section class="call-to-action cta-project container">
+    <h2 class="cta-title">Interested in doing a project together?</h2>
+    <div class="horizontal-line"></div>
+    <a href="contact.html" class="btn btn-secondary btn-secondary-cta">Contact Me</a>
+  </section>
+
+  <footer>
+    <div class="container">
+      <nav class="navbar-footer">
+        <img
+          src="images/footer-logo.svg"
+          alt="Portfolio logo"
+          class="footer-logo"
+        />
+        <ul class="nav-items nav-items-footer">
+          <li class="nav-item nav-item-footer">
+            <a href="#" class="nav-link nav-link-footer">Home</a>
+          </li>
+          <li class="nav-item nav-item-footer">
+            <a href="portfolio.html" class="nav-link nav-link-footer">Portfolio</a>
+          </li>
+          <li class="nav-item nav-item-footer">
+            <a href="contact.html" class="nav-link nav-link-footer">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="social-icons">
+        <i class="fab fa-github"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin"></i>
+      </div>
+    </div>
+  </footer>
+  <script src="scripts/index.js"></script>
+</body>
+</html>
+
+

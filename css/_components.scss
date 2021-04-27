@@ -1,0 +1,286 @@
+
+/* Containers ====
+=============== */
+
+.container {
+  width: 90%;
+  max-width: 1110px;
+  margin: 0 auto;
+  position: relative;
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 83%;
+  } 
+}
+
+/* Buttons ======
+=============== */
+
+.btn {
+  font-family: "Public Sans", "sans";
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.166rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-primary {
+  display: flex;
+  align-items: center;
+  height: 48px;
+  width: 200px;
+  background: var(--clr-blue);
+  color: white;
+
+  &:hover {
+    .btn__icon {
+      background: #669f91;
+
+      svg g {
+        stroke: white;
+      }
+    }
+
+    .btn__text {
+      background: var(--clr-cyan);
+    }
+  }
+
+  &:disabled {
+    .btn-icon {
+      background-color: #d2d5d9;
+
+      svg g {
+        stroke: white;
+      }
+    }
+
+    .btn__text {
+      background-color: #d2d6da;
+    }
+  }
+}
+
+.btn__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  background: #1c3444;
+  transition: background-color var(--transition);
+}
+
+.btn__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 152px;
+  height: 48px;
+  background-color: var(--clr-blue);
+  color: white;
+  transition: background-color var(--transition);
+}
+
+.btn-secondary {
+  padding: 1.5em 2.625em;
+  color: var(--clr-gray-blue);
+  border: 1px solid var(--clr-gray-blue);
+  transition: background-color var(--transition);
+
+  &:hover {
+    background-color: var(--clr-gray-blue);
+    color: white;
+  }
+
+  &:disabled {
+    color: #d2d6da;
+    border: 1px solid #d2d6da;
+  }
+}
+
+/* Header ========
+================== */
+
+/* Desktop layout ==
+================= */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 4em;
+}
+
+.nav-items {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item + .nav-item {
+  margin-left: 42px;
+  padding: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  font-family: "Public Sans", "sans";
+  font-weight: var(--fw-semi-bold);
+  transition: color var(--transition);
+
+  &:hover {
+    color: var(--clr-cyan);
+  }
+}
+
+.nav-link-header {
+  color: #33323d;
+}
+
+.active {
+  color: var(--clr-cyan);
+}
+
+/* Hamburger menu ====
+================= */
+
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+}
+
+/* Mobile layout ====
+==================== */
+
+@media (max-width: 760px) {
+  header {
+    padding-top: 2em;
+  }
+
+  /* Hamburger menu ====
+    ==================== */
+
+  .nav-items-header {
+    visibility: hidden;
+  }
+
+  .nav-toggle {
+    display: block;
+    position: absolute;
+    right: 0;
+  }
+  .hamburger {
+    display: block;
+  }
+
+  .close {
+    display: none;
+  }
+
+  .nav-items-visible {
+    visibility: visible;
+    padding: 40px 62px;
+    flex-direction: column;
+    gap: 32px;
+    position: absolute;
+    right: 0;
+    top: 88px;
+    z-index: 1;
+    text-align: center;
+    background: var(--clr-gray-blue);
+
+    .nav-item-header {
+      margin: 0;
+    }
+
+    .nav-link-header {
+      color: white;
+      font-size: 0.75rem;
+    }
+  }
+}
+
+/* Footer ====
+============= */
+
+/* Desktop layout =====
+================== */
+
+footer {
+  background: #33323d;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 0;
+  }
+
+  .navbar-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.footer-logo {
+  margin-right: 3rem;
+}
+
+.nav-link-footer {
+  color: white;
+}
+
+.fab {
+  color: white;
+  font-size: 25px;
+  transition: color var(--transition);
+
+  & + .fab {
+    margin-left: 16px;
+  }
+
+  &:hover {
+    cursor: pointer;
+    color: var(--clr-cyan);
+  }
+}
+
+/* Mobile layout ======
+=================== */
+
+@media (max-width: 760px) {
+  footer {
+    .container {
+      flex-direction: column;
+      align-items: center;
+      padding: 3.5rem 0;
+    }
+
+    .navbar-footer,
+    .nav-items-footer {
+      flex-direction: column;
+      text-align: center;
+      gap: 40px;
+    }
+  }
+
+  .footer-logo,
+  .nav-item + .nav-item {
+    margin: 0;
+  }
+
+  .social-icons {
+    margin-top: 40px;
+  }
+}

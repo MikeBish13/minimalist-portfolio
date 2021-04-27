@@ -1,0 +1,282 @@
+/* Mobile Design ====
+=================== */
+
+.project-hero {
+  margin-top: 2.5rem;
+  height: 8.75rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &-manage {
+    background-image: url("/images/detail/tablet/image-manage-hero.jpg");
+  }
+  &-bookmark {
+    background-image: url("/images/detail/tablet/image-bookmark-hero.jpg");
+  }
+  &-insure {
+    background-image: url("/images/detail/tablet/image-insure-hero.jpg");
+  }
+  &-fylo {
+    background-image: url("/images/detail/tablet/image-fylo-hero.jpg");
+  }
+}
+
+.project-container {
+  margin-top: 2.5rem;
+}
+
+.project-details {
+  padding: 1.5em 0;
+  border-top: 1px solid var(--clr-border-gray);
+  border-bottom: 1px solid var(--clr-border-gray);
+}
+
+.project-title {
+    margin-bottom: 1.5rem;
+}
+
+.project-desc,
+.btn-secondary-project {
+  margin-top: 1.5rem;
+}
+
+.project-desc,
+.project-skills {
+  font-size: 0.8125rem;
+  color: var(--clr-cyan);
+  font-weight: var(--fw-bold);
+}
+
+.project-background {
+  margin-top: 3rem;
+}
+
+.project-background-info {
+  margin-top: 1.75rem;
+}
+
+.previews {
+  margin-top: 2.5rem;
+}
+
+.img-preview-1,
+.img-preview-2 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 12.3125rem;
+}
+
+.img-preview-1 {
+  margin-top: 2.5rem;
+
+  &-manage {
+    background-image: url("/images/detail/tablet/image-manage-preview-1.jpg");
+  }
+  &-bookmark {
+    background-image: url("/images/detail/tablet/image-bookmark-preview-1.jpg");
+  }
+  &-insure {
+    background-image: url("/images/detail/tablet/image-insure-preview-1.jpg");
+  }
+  &-fylo {
+    background-image: url("/images/detail/tablet/image-fylo-preview-1.jpg");
+  }
+}
+
+.img-preview-2 {
+  margin-top: 2rem;
+
+  &-manage {
+    background-image: url("/images/detail/tablet/image-manage-preview-2.jpg");
+  }
+  &-bookmark {
+    background-image: url("/images/detail/tablet/image-bookmark-preview-2.jpg");
+  }
+  &-insure {
+    background-image: url("/images/detail/tablet/image-insure-preview-2.jpg");
+  }
+  &-fylo {
+    background-image: url("/images/detail/tablet/image-fylo-preview-2.jpg");
+  }
+}
+
+.project-navigation {
+  margin-top: 4rem;
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--clr-border-gray);
+  border-bottom: 1px solid var(--clr-border-gray);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+
+  &::after {
+    content: "";
+    width: 1px;
+    height: 100%;
+    background: var(--clr-border-gray);
+    position: absolute;
+    top: 0;
+    left: 50%;
+  }
+}
+
+.next-project,
+.previous-project {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  &:hover {
+    .arrow-title,
+    .arrow-text {
+      color: var(--clr-cyan);
+    }
+
+    svg path {
+      stroke: var(--clr-cyan);
+    }
+  }
+}
+
+.next-project {
+  text-align: right;
+  align-items: flex-end;
+}
+
+.arrow {
+  margin-bottom: 1rem;
+}
+
+/* Tablet design =====
+================= */
+
+@media (min-width: 768px) {
+    .project-hero {
+        height: 19.375rem;
+    }
+
+    .img-preview-1,
+    .img-preview-2 {
+        height: 27.125rem;
+    }
+    .project-details {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .project-info {
+        grid-column: 2 / 3;
+        grid-row: 1 / 4;
+    }
+
+    .project-desc {
+        margin-top: 0;
+    }
+
+    .project-title {
+        margin-bottom: 1rem;
+    }
+
+    .btn-secondary-project {
+        margin-top: 1rem;
+        justify-self: start;
+    }
+}
+
+/* Desktop Design ===
+================== */ 
+
+@media (min-width: 1000px) {
+    .project-hero {
+        height: 31.25rem;
+        margin-top: 5.875rem;
+
+        &-manage {
+            background-image: url('/images/detail/desktop/image-manage-hero.jpg');
+        }
+        &-bookmark {
+            background-image: url('/images/detail/desktop/image-bookmark-hero.jpg');
+        }
+        &-insure {
+            background-image: url('/images/detail/desktop/image-insure-hero.jpg');
+        }
+        &-fylo {
+            background-image: url('/images/detail/desktop/image-fylo-hero.jpg');
+        }
+    }
+
+    .img-preview-1,
+    .img-preview-2 {
+        height: 25rem;
+    }
+
+    .img-preview-1 {
+        &-manage {
+        background-image: url('/images/detail/desktop/image-manage-preview-1.jpg');
+        }
+        &-bookmark {
+        background-image: url('/images/detail/desktop/image-bookmark-preview-1.jpg');
+        }
+        &-insure {
+        background-image: url('/images/detail/desktop/image-insure-preview-1.jpg');
+        }
+        &-fylo {
+        background-image: url('/images/detail/desktop/image-fylo-preview-1.jpg');
+        }
+    }
+
+    .img-preview-2 {
+        &-manage {
+        background-image: url('/images/detail/desktop/image-manage-preview-2.jpg');
+        }
+        &-bookmark {
+        background-image: url('/images/detail/desktop/image-bookmark-preview-2.jpg');
+        }
+        &-insure {
+        background-image: url('/images/detail/desktop/image-insure-preview-2.jpg');
+        }
+        &-fylo {
+        background-image: url('/images/detail/desktop/image-fylo-preview-2.jpg');
+        }
+    }
+
+    .project-container {
+        margin-top: 7.25rem;
+        display: flex;
+        gap: 7.8125rem;
+        align-items: flex-start;
+    }
+
+    .project-details {
+        display: block;
+        max-width: 350px;
+    }
+
+    .project-desc {
+      margin-top: 1.4rem;
+    }
+
+    .project-skills {
+      margin-top: 1rem;
+    }
+
+    .btn-secondary-project {
+      margin-top: 2rem;
+    }
+
+    .project-background {
+        margin-top: 0;
+        max-width: 635px;
+    }
+
+    .project-navigation {
+        margin-bottom: 7.25rem;
+    }
+
+    .cta-project {
+        padding-top: 0;
+        padding-bottom: 150px;
+    }
+}

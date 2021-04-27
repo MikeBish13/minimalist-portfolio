@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script
+      src="https://kit.fontawesome.com/1c6b673aa2.js"
+      crossorigin="anonymous"
+    ></script>
+  <link rel="stylesheet" href="css/main.css">
+  
+  <title>Frontend Mentor | My Projects</title>
+</head>
+<body>
+
+  <header class="container">
+    <img src="images/logo.svg" alt="Portfolio logo" class="header-logo" />
+    <button class="nav-toggle">
+      <svg
+        class="hamburger"
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="13"
+      >
+        <g fill="#33323D" fill-rule="evenodd">
+          <path d="M0 0h24v1H0zM0 6h24v1H0zM0 12h24v1H0z" />
+        </g>
+      </svg>
+      <svg
+        class="close"
+        xmlns="http://www.w3.org/2000/svg"
+        width="18"
+        height="19"
+      >
+        <path
+          fill="#33323D"
+          fill-rule="evenodd"
+          d="M17.132.661l.707.707L9.707 9.5l8.132 8.132-.707.707L9 10.207.868 18.34l-.707-.707L8.293 9.5.161 1.368.868.661 9 8.793 17.132.661z"
+        />
+      </svg>
+    </button>
+    <nav class="navbar-header">
+      <ul class="nav-items nav-items-header">
+        <li class="nav-item nav-item-header">
+          <a href="index.html" class="nav-link nav-link-header">Home</a>
+        </li>
+        <li class="nav-item nav-item-header">
+          <a href="#" class="nav-link nav-link-header active">Portfolio</a>
+        </li>
+        <li class="nav-item nav-item-header">
+          <a href="contact.html" class="nav-link nav-link-header">Contact Me</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section class="portfolios container">
+    <!-- Manage portfolio -->
+    <div class="portfolio">
+      <img src="images/portfolio/desktop/image-portfolio-manage.jpg" alt="Manage portfolio screenshot" class="portfolio-img-desktop">
+      <img src="images/portfolio/tablet/image-portfolio-manage.jpg" alt="Manage portfolio screenshot" class="portfolio-img-tablet">
+      <img src="images/portfolio/mobile/image-portfolio-manage.jpg" alt="Manage portfolio screenshot" class="portfolio-img-mobile">
+      <div class="portfolio-details">
+        <h2 class="portfolio-title">Manage</h2>
+        <p class="portfolio-text">This portfolio required me to build a fully responsive landing page to the designs provided. 
+          I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, 
+          such as the testimonial slider.</p>
+          <a href="manage.html" class="btn btn-secondary btn-secondary-portfolio">View project</a>
+      </div>
+    </div>
+    <!-- Bookmark portfolio -->
+    <div class="portfolio portfolio-left">
+      <img src="images/portfolio/desktop/image-portfolio-bookmark.jpg" alt="Bookmark portfolio screenshot" class="portfolio-img-desktop">
+      <img src="images/portfolio/tablet/image-portfolio-bookmark.jpg" alt="Bookmark portfolio screenshot" class="portfolio-img-tablet">
+      <img src="images/portfolio/mobile/image-portfolio-bookmark.jpg" alt="Bookmark portfolio screenshot" class="portfolio-img-mobile">
+      <div class="portfolio-details">
+        <h2 class="portfolio-title">Bookmark</h2>
+        <p class="portfolio-text">This portfolio required me to build a fully responsive landing page to the designs provided. I 
+          used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such 
+          as the features section.</p>
+        <a href="bookmark.html" class="btn btn-secondary btn-secondary-portfolio">View project</a>
+      </div>
+    </div>
+    <!-- Insure portfolio -->
+    <div class="portfolio">
+      <img src="images/portfolio/desktop/image-portfolio-Insure.jpg" alt="Insure portfolio screenshot" class="portfolio-img-desktop">
+      <img src="images/portfolio/tablet/image-portfolio-Insure.jpg" alt="Insure portfolio screenshot" class="portfolio-img-tablet">
+      <img src="images/portfolio/mobile/image-portfolio-Insure.jpg" alt="Insure portfolio screenshot" class="portfolio-img-mobile">
+      <div class="portfolio-details">
+        <h2 class="portfolio-title">Insure</h2>
+        <p class="portfolio-text">This was a small portfolio which mostly consisted of HTML and CSS. I built a fully-responsive 
+          landing page. The only JavaScript this portfolio required was to enable the toggling of the 
+          mobile navigation.</p>
+        <a href="insure.html" class="btn btn-secondary btn-secondary-portfolio">View project</a>
+      </div>
+    </div>
+    <!-- Fylo portfolio -->
+    <div class="portfolio portfolio-left">
+      <img src="images/portfolio/desktop/image-portfolio-fylo.jpg" alt="Fylo portfolio screenshot" class="portfolio-img-desktop">
+      <img src="images/portfolio/tablet/image-portfolio-fylo.jpg" alt="Fylo portfolio screenshot" class="portfolio-img-tablet">
+      <img src="images/portfolio/mobile/image-portfolio-fylo.jpg" alt="Fylo portfolio screenshot" class="portfolio-img-mobile">
+      <div class="portfolio-details">
+        <h2 class="portfolio-title">Fylo</h2>
+        <p class="portfolio-text">This portfolio was built in pure HTML and CSS. I had mobile and desktop designs to work to and 
+          built it so that it was fully-responsive. I took a mobile-first approach and used modern 
+          CSS like Flexbox and Grid for layout purposes.</p>
+        <a href="fylo.html" class="btn btn-secondary btn-secondary-portfolio">View project</a>
+      </div>
+    </div>
+  </section>
+  
+  <section class="call-to-action cta-portfolio container">
+    <h2 class="cta-title">Interested in doing a portfolio together?</h2>
+    <div class="horizontal-line"></div>
+    <a href="contact.html" class="btn btn-secondary btn-secondary-cta">Contact Me</a>
+  </section>
+
+
+  <footer>
+    <div class="container">
+      <nav class="navbar-footer">
+        <img
+          src="images/footer-logo.svg"
+          alt="Portfolio logo"
+          class="footer-logo"
+        />
+        <ul class="nav-items nav-items-footer">
+          <li class="nav-item nav-item-footer">
+            <a href="index.html" class="nav-link nav-link-footer">Home</a>
+          </li>
+          <li class="nav-item nav-item-footer">
+            <a href="#" class="nav-link nav-link-footer">Portfolio</a>
+          </li>
+          <li class="nav-item nav-item-footer">
+            <a href="#" class="nav-link nav-link-footer">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="social-icons">
+        <i class="fab fa-github"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin"></i>
+      </div>
+    </div>
+  </footer>
+  <script src="scripts/index.js"></script>
+</body>
+</html>
